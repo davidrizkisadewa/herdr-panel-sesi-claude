@@ -1,0 +1,12 @@
+# Tempel blok ini ke %APPDATA%\herdr\config.toml (di bagian [[keys.command]] lain),
+# lalu jalankan:  herdr config check  &&  herdr server reload-config
+#
+# Ctrl+B (lepas) lalu Alt+C  →  panel sesi Claude Code
+
+[[keys.command]]
+key = "prefix+alt+c"
+type = "popup"
+command = 'python.exe "%APPDATA%\herdr\scripts\claude-sesi.py"'
+description = "panel sesi Claude Code (buka/tutup)"
+width = "90%"
+height = "80%"
